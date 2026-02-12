@@ -95,6 +95,7 @@ sudo yum install lynx  # CentOS/RHEL
 brew install lynx      # macOS
 ```
 
+
 ---
 
 ## 📚 Licencia

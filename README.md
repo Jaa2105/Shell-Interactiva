@@ -23,7 +23,9 @@ git clone [https://github.com/yourusername/interactive-shell.git](https://github
 cd interactive-shell
 
 🔹 2️⃣ Grant execution permissionsBashchmod +x shell_interactiva.sh
+
 🔹 3️⃣ Run the script in interactive modeBash./shell_interactiva.sh
+
 📌 This will allow you to enter commands inside the interactive shell. ---📌 Available CommandsCommandDescriptioninstallCreates HTML files with wellness information.uninstallDeletes the created files.timeDisplays the current date and time.fitnessDisplays fitness-related ASCII art.saludOpens the HTML file using Lynx.exitExits the interactive shell.🖼️ Usage Example🔹 Running the script🔹 Fitness ASCII Art ```🚴‍♂️ Health & Fitness 🚴‍♂️O/|\/ \(   )(O_O)
 🔹 **Generated HTML file** ![Generated HTML file](https://user-images.githubusercontent.com/000000/ejemplo-html.png)
 
@@ -34,11 +36,11 @@ cd interactive-shell
 
 If you prefer to run commands directly without entering the shell:
 
-```bash
+
 ./shell_interactiva.sh install    # Creates wellness files
 ./shell_interactiva.sh time       # Displays current date and time
 ./shell_interactiva.sh uninstall  # Deletes created files
-```bash
+
 
 
 ## 🛠️ Requirements

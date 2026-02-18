@@ -38,6 +38,9 @@ If you prefer to run commands directly without entering the shell:
 ./shell_interactiva.sh install    # Creates wellness files
 ./shell_interactiva.sh time       # Displays current date and time
 ./shell_interactiva.sh uninstall  # Deletes created files
+```bash
+
+
 ## 🛠️ Requirements
 
 ✅ Linux / macOS (Works on any Unix-based system).

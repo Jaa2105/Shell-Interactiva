@@ -18,7 +18,7 @@ This is a **Bash script** that provides an **interactive shell** with tools to m
 ## 📦 Installation and Usage
 
 ### 🔹 1️⃣ Clone the repository
-```bash
+
 git clone [https://github.com/yourusername/interactive-shell.git](https://github.com/yourusername/interactive-shell.git)
 cd interactive-shell
 

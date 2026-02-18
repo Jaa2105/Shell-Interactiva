@@ -1,109 +1,48 @@
-# 🖥️ Shell Interactiva - Bienestar y Fitness 🚀
+# 🖥️ Interactive Shell - Wellness & Fitness 🚀
 
-![Shell Interactiva](https://user-images.githubusercontent.com/000000/ejemplo-imagen-shell.png)
+![Interactive Shell](https://user-images.githubusercontent.com/000000/ejemplo-imagen-shell.png)
 
-Este es un **script en Bash** que proporciona una **shell interactiva** con herramientas para gestionar archivos HTML sobre bienestar y salud, ejecutar comandos personalizados y visualizar arte ASCII.
-
----
-
-## 🌜 Características:
-✅ **Crea archivos HTML** con información sobre bienestar y salud.  
-✅ **Ejecuta comandos personalizados** como `install`, `uninstall`, `time`, etc.  
-✅ **Modo interactivo** para ingresar comandos en tiempo real.  
-✅ **Muestra arte ASCII** en la terminal.  
-✅ **Compatible con Lynx** para visualizar las páginas sin navegador gráfico.  
+This is a **Bash script** that provides an **interactive shell** with tools to manage wellness and health-related HTML files, execute custom commands, and display ASCII art.
 
 ---
 
-## 📦 Instalación y Uso
+## 🌜 Features:
+✅ **Create HTML files** containing wellness and health information.  
+✅ **Execute custom commands** such as `install`, `uninstall`, `time`, etc.  
+✅ **Interactive mode** for real-time command entry.  
+✅ **Display ASCII art** directly in the terminal.  
+✅ **Lynx compatibility** to view pages without a graphical browser.  
 
-### 🔹 1️⃣ Clonar el repositorio
+---
+
+## 📦 Installation and Usage
+
+### 🔹 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/tuusuario/shell-interactiva.git
-cd shell-interactiva
-```
-
-### 🔹 2️⃣ Dar permisos de ejecución
-```bash
-chmod +x shell_interactiva.sh
-```
-
-### 🔹 3️⃣ Ejecutar el script en modo interactivo
-```bash
-./shell_interactiva.sh
-```
-📌 **Esto te permitirá ingresar comandos dentro de la shell interactiva.**  
+git clone [https://github.com/yourusername/interactive-shell.git](https://github.com/yourusername/interactive-shell.git)
+cd interactive-shell
+🔹 2️⃣ Grant execution permissionsBashchmod +x shell_interactiva.sh
+🔹 3️⃣ Run the script in interactive modeBash./shell_interactiva.sh
+📌 This will allow you to enter commands inside the interactive shell. ---📌 Available CommandsCommandDescriptioninstallCreates HTML files with wellness information.uninstallDeletes the created files.timeDisplays the current date and time.fitnessDisplays fitness-related ASCII art.saludOpens the HTML file using Lynx.exitExits the interactive shell.🖼️ Usage Example🔹 Running the script🔹 Fitness ASCII Art ```🚴‍♂️ Health & Fitness 🚴‍♂️O/|\/ \(   )(O_O)
+🔹 **Generated HTML file** ![Generated HTML file](https://user-images.githubusercontent.com/000000/ejemplo-html.png)
 
 ---
 
-## 📌 Comandos Disponibles
+## Run commands without interactive mode
 
-| Comando      | Descripción |
-|-------------|------------|
-| `install`   | Crea archivos HTML con información sobre bienestar. |
-| `uninstall` | Elimina los archivos creados. |
-| `time`      | Muestra la fecha y hora actual. |
-| `fitness`   | Muestra un dibujo ASCII relacionado con el fitness. |
-| `salud`     | Abre el archivo HTML con Lynx. |
-| `exit`      | Sale de la shell interactiva. |
 
----
-
-## 🖼️ Ejemplo de Uso
-
-🔹 **Ejecutando el script**  
-![Ejemplo de ejecución](https://user-images.githubusercontent.com/000000/ejemplo-ejecucion.png)
-
-🔹 **Dibujo ASCII de Fitness**  
-```
-       🚴‍♂️ Salud & Fitness 🚴‍♂️
-        O    
-       /|\    
-       / \    
-      (   )  
-     (_O_O_)  
-```
-
-🔹 **Archivo HTML generado**  
-![Archivo HTML generado](https://user-images.githubusercontent.com/000000/ejemplo-html.png)
-
----
-
-## ⚡ Ejecutar comandos sin modo interactivo
-
-Si prefieres ejecutar comandos directamente sin entrar en la shell:
+If you prefer to run commands directly without entering the shell:
 
 ```bash
-./shell_interactiva.sh install    # Crea archivos de bienestar
-./shell_interactiva.sh time       # Muestra la fecha y hora actual
-./shell_interactiva.sh uninstall  # Elimina archivos creados
-```
-
----
-
-## 🛠️ Requisitos
-
-✅ **Linux / macOS** (Funciona en cualquier sistema basado en Unix).  
-✅ **Bash** instalado.  
-✅ **Lynx** (Opcional, para visualizar HTML en la terminal).  
-
-Para instalar **Lynx**, usa:
-
-```bash
-sudo apt install lynx  # Debian/Ubuntu
+./shell_interactiva.sh install    # Creates wellness files
+./shell_interactiva.sh time       # Displays current date and time
+./shell_interactiva.sh uninstall  # Deletes created files
+🛠️ Requirements✅ Linux / macOS (Works on any Unix-based system).✅ Bash installed.✅ Lynx (Optional, to view HTML in the terminal).To install Lynx, use:Bashsudo apt install lynx  # Debian/Ubuntu
 sudo yum install lynx  # CentOS/RHEL
 brew install lynx      # macOS
-```
+## 📚 License
 
-
----
-
-## 📚 Licencia
-Este proyecto está bajo la licencia **MIT**.  
-
-💡 **Contribuciones son bienvenidas.** Puedes hacer un **fork**, mejorar el código y enviar un **pull request**.
-
-📩 Para cualquier duda, ¡contáctame! 🚀
+This project is licensed under the MIT License.💡 Contributions are welcome. You can fork the repo, improve the code, and submit a pull request.📩 For any questions, feel free to contact me! 🚀
 
 
 

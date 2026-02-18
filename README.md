@@ -38,7 +38,9 @@ If you prefer to run commands directly without entering the shell:
 
 
 ./shell_interactiva.sh install    # Creates wellness files
+
 ./shell_interactiva.sh time       # Displays current date and time
+
 ./shell_interactiva.sh uninstall  # Deletes created files
 
 
@@ -52,7 +54,10 @@ If you prefer to run commands directly without entering the shell:
 ✅ Lynx (Optional, to view HTML in the terminal).
 
 To install Lynx, use: Bashsudo apt install lynx  # Debian/Ubuntu
+
+
 sudo yum install lynx  # CentOS/RHEL
+
 brew install lynx      # macOS
 
 ## 📚 License
